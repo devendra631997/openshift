@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-ex",
+  "name": "",
   "version": "0.0.1",
   "description": "Node.js sample app for OpenShift 3",
   "main": "1.js",
@@ -8,7 +8,7 @@
     "npm": "*"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "node 1.js",
     "test": "IP=0.0.0.0 PORT=8081 mocha --timeout 5000 tests/*_test.js"
   },
   "repository": {
